@@ -20,9 +20,14 @@ window.add(panel);
 		// Run it again; are your Smileys all yellow now? Also try changing them to red or green!
 
 		// 5. Make three Smiley objects and add them to your panel
-
+Smiley smile1 = new Smiley();
+Smiley smile2 = new Smiley();
+Smiley smile3 = new Smiley();
+panel.add(smile1);
+panel.add(smile2);
+panel.add(smile3);
 		// 6. Pack your frame
-
+window.pack();
 		// 7. RUN THE PROGRAM and make sure you see three blue Smileys!
 	}
 }
